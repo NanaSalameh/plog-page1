@@ -1,0 +1,119 @@
+
+
+p{
+    font-family:Arial, Helvetica, sans-serif ;
+  }
+.p-nav{
+    background-image:url('../photo/خلفية.jpg');
+   opacity: 0.5;
+   border-radius: 150px;
+   padding: 70;
+   box-shadow: 0 2px 5px 0 rgb(24, 34, 74), 0 5px 0 rgba(0, 0, 0,0.6);
+  
+   
+  }
+  .contener{
+    background-color: rgb(130, 201, 240);
+    text-align: center;
+    width: 1000px;
+    
+    
+  }
+  
+  .p3{
+    border:3px solid rgb(6, 38, 97);
+    background-color:rgb(92, 182, 200);
+  }
+  .contener2{
+
+    background-image:url('../photo/article.jpg') ;
+    width: 500x;
+    height: 500px;
+    }
+    .link{
+     
+      color: rgb(241, 244, 246);
+      font-size: medium;
+      padding-left: 20px;
+      position: sticky;
+      top: 50px;
+      text-shadow: 2px 2px 4px rgba(15, 7, 83, 0.944);
+
+    }
+    h3{
+    color:darkblue
+
+    }
+    .subscrip{
+    font-size: 20px;
+    color: rgb(255, 251, 251);
+    background-color: rgb(245, 23, 23);
+
+    }
+    .fa-facebook{
+      font-size: 30px;
+      color: blue;
+     
+    }
+    .fa-youtube{
+      font-size: 30px;
+      color: rgb(205, 14, 14);
+      
+    }
+    .fa-twitter{
+      font-size: 30px;
+      color: blue;
+     
+    }
+    .fa-telegram{
+      font-size: 30px;
+      color: blue;
+      
+    }
+    .flex-contener{
+      display: flex;
+      margin-left: 250px;
+    }
+    .flex-contener>div{
+    font-size: small;
+    margin:30px ;
+    
+    }
+    .header-index{
+      text-align: center;
+      color: azure;
+      background-color: cornflowerblue;
+      height: 100px;
+  
+    }
+    .h1-index{
+      color: rgb(234, 28, 28);
+    }
+.nav-index{
+
+  font-size: larger;
+  font-family:sans-serif;
+  color: rgb(143, 229, 229);
+  width: 120px;
+  height: 250px;
+  margin-left: 30px;
+  background-color: rgb(10, 60, 113);
+  display: grid;
+}
+.button-index{
+  color: rgb(199, 26, 26);
+  font-size: medium;
+  background-color: rgb(115, 198, 198);
+}
+
+@media screen and(max-width:1000px) {
+  .contener{
+   width: 100%;
+  }
+}
+@media screen and(min-width:200px) {
+  .contener{
+   width: 50%;
+  }
+}
+

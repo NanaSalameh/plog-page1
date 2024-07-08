@@ -1,0 +1,13 @@
+section{
+  width:125;
+  height:235;
+   margin-top: 10px;
+   margin-left: 90px;
+   text-align: center;
+   font-size: smaller;
+   border-radius: 10px;
+   box-shadow: 0 2px 2px 0 rgba(0, 0, 0,1), 0 6px 0 rgba(0, 0, 0,0.6);
+   display: inline-block;
+   flex-wrap: nowrap;
+   
+   }
